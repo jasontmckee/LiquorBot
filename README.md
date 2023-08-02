@@ -69,9 +69,9 @@ The PUMP macro is also where volumetric units are converted into mm of rotation.
 Moonraker provides a HTTP interface to run gcode, see "Run a gcode" on https://moonraker.readthedocs.io/en/latest/web_api/ for details. 
 
 LiquorBot's main API macros are:
-DISPENSE - takes a volume for each pump (p1 through p8), waits until the cup sensor reports a cup present and then calls DISPENSE_NO_CHECK
-DISPENSE_NO_CHECK - takes same parameters as DISPENSE but doens't check if a cup is present before calling PUMP macro for each pump. Use this if you're not using the cup sensor. SPEED parameter can be used to override the default speed for all pumps
-PRIME - pumps slightly more than the volume contained in thetubing for each pump. Call this when connecting all bottle for the first time
-UNLOAD - opposite of prime, reverses the pumps to put any product still in the hoses back into the bottles
-CLEAN - runs several oz through each pump, useful to flush the hoses with water and/or vodka for cleaning
+ * DISPENSE - takes a volume for each pump (p1 through p8), waits until the cup sensor reports a cup present and then calls DISPENSE_NO_CHECK
+ * DISPENSE_NO_CHECK - takes same parameters as DISPENSE but doens't check if a cup is present before calling PUMP macro for each pump. Use this if you're not using the cup sensor. SPEED parameter can be used to override the default speed for all pumps
+ * PRIME - pumps slightly more than the volume contained in thetubing for each pump. Call this when connecting all bottle for the first time
+ * UNLOAD - opposite of prime, reverses the pumps to put any product still in the hoses back into the bottles
+ * CLEAN - runs several oz through each pump, useful to flush the hoses with water and/or vodka for cleaning
 
