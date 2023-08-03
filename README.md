@@ -42,7 +42,7 @@ Holes for mounting the Raspberry Pi & screen will need to be hand-drilled.
 | 5"/130mm 3/4"/19mm aluminum tubing       | 2   |  |
 | furniture leg caps                       | 6   | https://amazon.com/uxcell-Furniture-Protector-Prevent-Scratches/dp/B07PGS84Y6 |
 | micro switches                           | 2   | https://www.amazon.com/gp/product/B07FJ77HNV |
-| Big Tree Tech Octopus board              | 1   | https://biqu.equipment/products/bigtreetech-octopus-v1-1?variant=39812758765666 |
+| Big Tree Tech Octopus board              | 1   | https://biqu.equipment/products/bigtreetech-octopus-v1-1?variant=39749194023010 |
 | 16 LED neopixel ring light               | 1   | https://amazon.com/dp/B0B2D5QXG5 |
 | 3 & 4 pin JST connectors                 | 1ea | https://aliexpress.us/item/2251832574216984.html	|
 | 2.5mm power socket                       | 1   | https://www.amazon.com/gp/product/B078YNW3JZ |
