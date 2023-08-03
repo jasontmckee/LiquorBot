@@ -18,19 +18,24 @@ Holes for mounting the Raspberry Pi & screen will need to be hand-drilled.
 
 ## Hardware and parts
 
-| Item                 | Qty | Location                            |
-|----------------------|-----|-------------------------------------|
-| M3 nut               | 18  | Pump bracket & power plug           |
-| M3S nut              | 10  | Leg, dispenser & cup brackets       |
-| M3-8 countersunk     | 20  | Plate/shelf to leg brackets         |
-| M3-16                | 16  | Pump bracket                        |
-| M3-12                | 10  | Leg, dispenser & cup brackets       |
-| M3 heat insert       | 4   | Controller board mount              |
-| M4-12 countersunk	   | 6   | Pump tags/hose clips                |
-| M4-16 countersunk	   | 2   | Controller board mount/hose clips   |
-| M2-8 countersunk     | 2   | Cup sensor & LED dispenser head     |
-| M2x4x3.5 heat insert | 2   | Cup sensor & LED dispenser head     |
-| M2-10 self-tapping   | 4   | Cup sensor switches                 |
+| Item                      | Qty | Location                            |
+|---------------------------|-----|-------------------------------------|
+| M3 nut                    | 18  | Pump bracket & power plug           |
+| M3S nut                   | 10  | Leg, dispenser & cup brackets       |
+| M3-8 countersunk          | 20  | Plate/shelf to leg brackets         |
+| M3-16                     | 16  | Pump bracket                        |
+| M3-12                     | 10  | Leg, dispenser & cup brackets       |
+| M3 heat insert            | 4   | Controller board mount              |
+| M4-12 countersunk	        | 6   | Pump tags/hose clips                |
+| M4-16 countersunk	        | 2   | Controller board mount/hose clips   |
+| M2-8 countersunk          | 2   | Cup sensor & LED dispenser head     |
+| M2x4x3.5 heat insert      | 2   | Cup sensor & LED dispenser head     |
+| M2-10 self-tapping        | 4   | Cup sensor switches                 |
+| bearings 13x4x5 (ODBoreW) | 48  | Pump rotors                         |
+| M4 washers                | 48  | Pump rotors                         |
+| M4 nuts                   | 56  | Pump rotors & housing               |
+| M4x20                     | 24  | Pump rotors                         |
+| M4x25                     | 32  | Pump housing                        |
 
 | Item                                | Qty | Source |
 |-------------------------------------|-----|--------|
@@ -43,6 +48,7 @@ Holes for mounting the Raspberry Pi & screen will need to be hand-drilled.
 | 3 & 4 pin JST connectors            | 1ea | https://aliexpress.us/item/2251832574216984.html	|
 | 2.5mm power socket                  | 1   | https://www.amazon.com/gp/product/B078YNW3JZ |
 | 24V power supply                    | 1   | https://amazon.com/gp/product/B01GC6VS8I |
+| 6x4mm silicone tubing               | 50m |  |
 
 Raspberry pi + touchscreen and case, I used https://smarticase.com/collections/all-products/products/smartipi-touch-2
 
@@ -71,7 +77,7 @@ Moonraker provides a HTTP interface to run gcode, see "Run a gcode" on https://m
 LiquorBot's main API macros are:
  * DISPENSE - takes a volume for each pump (p1 through p8), waits until the cup sensor reports a cup present and then calls DISPENSE_NO_CHECK
  * DISPENSE_NO_CHECK - takes same parameters as DISPENSE but doens't check if a cup is present before calling PUMP macro for each pump. Use this if you're not using the cup sensor. SPEED parameter can be used to override the default speed for all pumps
- * PRIME - pumps slightly more than the volume contained in thetubing for each pump. Call this when connecting all bottle for the first time
- * UNLOAD - opposite of prime, reverses the pumps to put any product still in the hoses back into the bottles
+ * PRIME - pumps slightly more than the volume contained in the tubing for each pump. Call this when connecting all bottle for the first time
+ * UNLOAD - opposite of PRIME, reverses the pumps to put any product still in the hoses back into the bottles
  * CLEAN - runs several oz through each pump, useful to flush the hoses with water and/or vodka for cleaning
 
