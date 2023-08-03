@@ -48,7 +48,7 @@ Holes for mounting the Raspberry Pi & screen will need to be hand-drilled.
 | 3 & 4 pin JST connectors            | 1ea | https://aliexpress.us/item/2251832574216984.html	|
 | 2.5mm power socket                  | 1   | https://www.amazon.com/gp/product/B078YNW3JZ |
 | 24V power supply                    | 1   | https://amazon.com/gp/product/B01GC6VS8I |
-| 6x4mm silicone tubing               | 50m |  |
+| 6x4mm silicone tubing               | 16m |  |
 
 Raspberry pi + touchscreen and case, I used https://smarticase.com/collections/all-products/products/smartipi-touch-2
 
