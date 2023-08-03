@@ -31,24 +31,25 @@ Holes for mounting the Raspberry Pi & screen will need to be hand-drilled.
 | M2-8 countersunk          | 2   | Cup sensor & LED dispenser head     |
 | M2x4x3.5 heat insert      | 2   | Cup sensor & LED dispenser head     |
 | M2-10 self-tapping        | 4   | Cup sensor switches                 |
-| bearings 13x4x5 (ODBoreW) | 48  | Pump rotors                         |
 | M4 washers                | 48  | Pump rotors                         |
 | M4 nuts                   | 56  | Pump rotors & housing               |
 | M4x20                     | 24  | Pump rotors                         |
 | M4x25                     | 32  | Pump housing                        |
 
-| Item                                | Qty | Source |
-|-------------------------------------|-----|--------|
-| 18"/460mm 3/4"/19mm aluminum tubing | 4   |  |
-| 5"/130mm 3/4"/19mm aluminum tubing  | 2   |  |
-| furniture leg caps                  | 6   |  |
-| micro switches                      | 2   | https://www.amazon.com/gp/product/B07FJ77HNV |
-| Big Tree Tech Octopus board         | 1   | https://biqu.equipment/products/bigtreetech-octopus-v1-1?variant=39812758765666 |
-| 16 LED neopixel ring light          | 1   |  |
-| 3 & 4 pin JST connectors            | 1ea | https://aliexpress.us/item/2251832574216984.html	|
-| 2.5mm power socket                  | 1   | https://www.amazon.com/gp/product/B078YNW3JZ |
-| 24V power supply                    | 1   | https://amazon.com/gp/product/B01GC6VS8I |
-| 6x4mm silicone tubing               | 16m |  |
+| Item                                     | Qty | Source |
+|------------------------------------------|-----|--------|
+| 18"/460mm 3/4"/19mm aluminum tubing      | 4   |  |
+| 5"/130mm 3/4"/19mm aluminum tubing       | 2   |  |
+| furniture leg caps                       | 6   | https://amazon.com/uxcell-Furniture-Protector-Prevent-Scratches/dp/B07PGS84Y6 |
+| micro switches                           | 2   | https://www.amazon.com/gp/product/B07FJ77HNV |
+| Big Tree Tech Octopus board              | 1   | https://biqu.equipment/products/bigtreetech-octopus-v1-1?variant=39812758765666 |
+| 16 LED neopixel ring light               | 1   | https://amazon.com/dp/B0B2D5QXG5 |
+| 3 & 4 pin JST connectors                 | 1ea | https://aliexpress.us/item/2251832574216984.html	|
+| 2.5mm power socket                       | 1   | https://www.amazon.com/gp/product/B078YNW3JZ |
+| 24V power supply                         | 1   | https://amazon.com/gp/product/B01GC6VS8I |
+| Nema17 Stepper motors, 24mm shaft        | 8   | https://www.amazon.com/dp/B088B756MY/?coliid=I3CAV1IQ1ES0T8 |
+| 13x4x5 (ODBoreW) bearings for pump rotor | 48  | https://www.amazon.com/dp/B094D6C3ZN |
+| 6x4mm silicone tubing                    | 16m | https://www.amazon.com/dp/B08PTXZ51Q |
 
 Raspberry pi + touchscreen and case, I used https://smarticase.com/collections/all-products/products/smartipi-touch-2
 
